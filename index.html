@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Fidelidade Tabuaço</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="Logo Fidelidade" class="logo">
+    <nav>
+      <button onclick="navigateTo('home')">Início</button>
+      <button onclick="navigateTo('servicos')">Serviços</button>
+      <button onclick="navigateTo('contactos')">Contactos</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="page active">
+      <h1>Bem-vindo à Fidelidade Tabuaço</h1>
+      <p>Seguros que protegem o que mais importa.</p>
+    </section>
+
+    <section id="servicos" class="page">
+      <h1>Os nossos serviços</h1>
+      <ul>
+        <li>Seguro Automóvel</li>
+        <li>Seguro de Vida</li>
+        <li>Saúde, Multirriscos, etc.</li>
+      </ul>
+    </section>
+
+    <section id="contactos" class="page">
+      <h1>Contacte-nos</h1>
+      <p>Email: fidelidade@exemplo.pt</p>
+      <p>Telefone: 912 345 678</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
